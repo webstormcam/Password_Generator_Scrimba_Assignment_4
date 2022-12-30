@@ -15,20 +15,47 @@ body{
     width: 100%;
     background-color: #1F2937;
     max-width: 550px;
-    padding: 1rem 1.5rem;
+    padding: 2rem 3rem;
+
 }
+
+#password-request{
+    margin-top: 5rem;
+}
+
+#password-output{
+    margin-top: 2rem;
+    border-top: 1px solid #2F3E53;
+}
+
+
 
 h1{
     color: #ffffff;
     font-family: 'Karla', sans-serif;
-    font-size: 3rem;
+    font-size: 2.5rem;
+    margin-bottom: 0.9rem;
    
 }
 
 h2{
     font-family: 'Inter', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 400;
+    color: #D5D4D8;
+    margin-bottom: 4rem;
+}
+
+button{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #10B981;
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
 }
 
 .green{
