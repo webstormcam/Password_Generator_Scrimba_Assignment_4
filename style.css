@@ -25,9 +25,12 @@ body{
 
 #password-output{
     margin-top: 2rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
     border-top: 1px solid #2F3E53;
     display: flex;
     justify-content: space-between;
+
 }
 
 
@@ -58,6 +61,15 @@ button{
     font-size: 1rem;
     border: none;
     cursor: pointer;
+}
+
+.password{
+    padding: 1rem 2rem;
+    background-color: #273549;
+    border-radius: 0.5rem;
+    max-width: 211px;
+    height: 39px;
+    width: 50%;
 }
 
 .green{
